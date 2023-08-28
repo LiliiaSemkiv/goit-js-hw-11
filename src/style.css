@@ -1,0 +1,33 @@
+.hidden {
+    display: none;
+  }
+  
+  .gallery {
+    margin: 25px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  .photo-card {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
